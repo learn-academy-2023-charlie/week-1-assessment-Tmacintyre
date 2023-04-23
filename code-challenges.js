@@ -44,6 +44,10 @@ console.log(moreChars(fruit3, fruit4))
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 
 // Pseudo code:
+// 1. Declare a new function that takes in a number.
+// 2. In the function use conditional statements for the 3 different outputs.
+// 3. For each of the three conditionals provide a return that concatenates the original number provided for the function and the text for at, below, or above boiling point.
+// 4. console log the correct return after invoking the function. 
 
 
 const temperature1 = 42
@@ -77,6 +81,11 @@ console.log(boilPoint(temperature3))
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
 // Pseudo code:
+// 1. Declare a new variable
+// 2. Use .concat to combine the two arrays and store that in the new variable.
+// 3. Use .length to get the length of the new array.
+// 4. Console log the returned length of the new array.
+
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
@@ -91,6 +100,12 @@ console.log(combArray.length)
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 
 // Pseudo code:
+// 1. Create a function that takes in a string variable.
+// 2. Take the string and split it into individual characters.
+// 3. Use a built in method to reverse all othe the characters.
+// 4. Join all of the individual characters back into a single string.
+// 5. return the reversed string.
+// 6. Console log the returned string.
 
 const currentCohort = "Charlie 2023"
 // Expected output: "3202 eilrahC"
@@ -108,7 +123,10 @@ console.log(revString(currentCohort))
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
 // Pseudo code:
-
+// 1. Name a function that takes in a number
+// 2. Use a built in method .lastIndexOf() to locate what index the number taken is last stored at.
+// 3. Return that index
+// 4. Console log the returned index
 const numberOfConnections = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 
 const givenValue1 = 42
@@ -133,6 +151,9 @@ console.log(lastIndexNum(givenValue2))
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Pseudo code:
+// 1. Create a function that takes in the provided arrays.
+// 2. Use built in methods to modify the arrays values arranging them largest to smallest. (sort and reverse)
+// 3. Return the values of the array and log them. 
 
 const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
 // Expected output: [82, 80, 79, 77, 76, 73, 72]

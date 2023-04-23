@@ -9,8 +9,8 @@
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 // console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Provided by instructor in class.
+// b) Verify and explain: Provided by instructor in class. 
 
 // --------------------1) What will this log?
 
@@ -42,13 +42,13 @@ const index = 1
 const weekendDays = ["saturday", "sunday"]
 // console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: SATURDAY SUNDAY
+// b) Verify and explain: I believe my answer is wrong as you would first have to convert the array into a string which would allow you to then use the .toUpperCase method, then convert back to an array.
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
 // console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: number
+// b) Verify and explain: The reason the data type comes back as a number is because the length of the array is 4 which is the datatype of a number.
